@@ -39,10 +39,14 @@
     padding-top: 190px;
     padding-bottom: 190px;
 }
-.img-me{
+.img-me {
 	width: 50%;
   padding-top: 4%;
   padding-bottom: 4%;
+}
+.navbar-default {
+  width:100%;
+  z-index: 10;
 }
 body {
  font: 20px "Open Sans", sans-serif;
@@ -56,10 +60,7 @@ body {
 
 <body>
 
-
-
-
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" data-spy="affix">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -88,7 +89,7 @@ body {
     <h1>Jenny Wagner</h1>
     <p><img src="img/BioPhotoSquare.jpg" class="img-circle img-responsive img-me" style="display:inline"></p>
   </div>
-  <div class="col-sm-7">
+  <div class="col-sm-7 text-left">
     <p> Words and words! </p>
   </div>
 </div>
