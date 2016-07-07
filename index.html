@@ -38,17 +38,31 @@
     color: #ffffff;
 }
 .container-fluid {
-    padding-top: 190px;
+    padding-top: 100px;
     padding-bottom: 190px;
 }
+.container-header {
+  padding-top:200px;
+}
+
 .img-me {
 	width: 50%;
   padding-top: 4%;
   padding-bottom: 4%;
 }
 .navbar-default {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  font-size: 13px;
+  letter-spacing: 4px;
   width:100%;
   z-index: 10;
+}
+.thumbnail{
+  height: 450px;
+  width: 250px;
 }
 body {
  font: 20px "Open Sans", sans-serif;
@@ -86,7 +100,7 @@ body {
 
 
 
-<div class="container-fluid bg-1 text-center" id="about">
+<div class="container-fluid container-header bg-1 text-center" id="about">
   <div class="col-sm-5">
     <h1>Jenny Wagner</h1>
     <p><img src="img/BioPhotoSquare.jpg" class="img-circle img-responsive img-me" style="display:inline"></p>
@@ -98,10 +112,39 @@ body {
 
 <div class="container-fluid bg-2 text-center" id="projects">
   <h2>Projects</h2>
+
+  <div class="row text-center">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="img/sirens-thumbnail.png" alt="jhusirens.wordpress.com">
+      <p><strong>JHU Sirens Website</strong></p>
+      <p>jhusirens.wordpress.com</p>
+      <a href="http://www.jhusirens.wordpress.com"><button class="btn">Take a Look!</button></a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="img/newsletter-thumbnail.png" alt="www.jhunewsletter.com">
+      <p><strong>Johns Hopkins News-Letter</strong></p>
+      <p>Ad improvements, search improvements, regular maintenance</p>
+      <a href = "http://www.jhunewsletter.com"> <button class="btn">Take a Look!</button> </a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="sanfran.jpg" alt="San Francisco">
+      <p><strong>San Francisco</strong></p>
+      <p>Sun. 29 November 2015</p>
+      <button class="btn">Buy Tickets</button>
+    </div>
+  </div>
+</div>
+
   <p>Things things things things things!</p>
   <p>You can see things about me here: </p>
 </div>
 
+<div
 <div class="container-fluid bg-3 text-center" id="social">
   <h1>Connect With Me</h1>
 
