@@ -64,6 +64,7 @@
 }
 
 .typewriter h1 {
+  padding-right: 10px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
